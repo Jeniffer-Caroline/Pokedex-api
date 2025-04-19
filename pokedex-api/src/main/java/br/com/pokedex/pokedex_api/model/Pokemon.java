@@ -1,6 +1,9 @@
-package br.com.pokedex.pokedex_api.model;
 
+
+package br.com.pokedex.pokedex_api.model;
+import br.com.pokedex.pokedex_api.model.Pokemon;
 import jakarta.persistence.*;
+import org.antlr.v4.runtime.misc.NotNull;
 
 @Entity
 @Table(name = "pokemon")
@@ -14,6 +17,7 @@ public class Pokemon {
     private Integer numero;
 
     @Column(name = "nome")
+    @NotNull
     private String nome;
 
     @Column(name = "descricao")
@@ -28,7 +32,7 @@ public class Pokemon {
     @Column(name = "categoria")
     private String categoria;
 
-    @Column(name = "area_habita")
+    @Column(name = "areaHabita")
     private String areaHabita;
 
     @Column(name = "altura")

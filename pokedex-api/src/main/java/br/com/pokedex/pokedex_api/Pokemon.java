@@ -34,4 +34,26 @@ public class Pokemon {
     public void setNivel(int nivel) {
         this.nivel = nivel;
     }
+
+    public void setId(long l) {
+    }
+
+    public void setDescricao(String s) {
+    }
+
+    public void setImagem(String url) {
+    }
+
+    public void setCategoria(String semente) {
+    }
+
+    public void setAreaHabita(String floresta) {
+    }
+
+    public void setAltura(double v) {
+    }
+
+    public void setPeso(double v) {
+
+    }
 }
